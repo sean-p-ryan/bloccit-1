@@ -1,0 +1,30 @@
+{
+  "name": "bloccit",
+  "version": "1.0.0",
+  "description": "A Reddit-like application for user to discuss and share content",
+  "main": "(src/server.js)",
+  "scripts": {
+    "test": "export NODE_ENV=test&& jasmine",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "install": "^0.12.2",
+    "jasmine": "^3.4.0",
+    "npm": "^6.9.0",
+    "request": "^2.83.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "json": "^9.0.6",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.32.6",
+    "sequelize-cli": "^5.4.0"
+  }
+}
